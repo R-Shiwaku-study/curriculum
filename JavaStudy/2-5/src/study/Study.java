@@ -30,10 +30,12 @@ public class Study {
 
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
-        /*
+        /*shopMap.puｔ()で要素の追加をしている。
+         * 第一引数にはキー値をshohinList.get(1)で取り出し、値を追加、第二引数には、値180を追加している。
          * 
          *
          */
+    	
     	LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
         shopMap.put(shohinList.get(0), 125);
         shopMap.put(shohinList.get(1), 180);
